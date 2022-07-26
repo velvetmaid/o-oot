@@ -21,3 +21,9 @@ I'll make all files contaminated in a folder.
 * [Send Message Pyhton](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPy)
     * Initial Release
 * Soon
+
+Send img by url or attach file
+Send text
+With button include text/url
+Note:
+Create in one chat column are not separated
