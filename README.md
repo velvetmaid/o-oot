@@ -12,11 +12,12 @@ I'll make all files contaminated in a folder.
 
 ### Folders
 
-* [Send Message by ID](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgByID)
+* [Send Message PHP by ID in form input](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgByID)
     - [x] Send text
     - [x] Send image by url
     - [ ] Send image & text/caption
-* [Send Message](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPHP)
+* [Send Message PHP form input](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPHP)
+    * Initial Release
+* [Send Message Pyhton](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPy)
     * Initial Release
 * Soon
-
