@@ -18,7 +18,7 @@ function sendMessage($telegram_id, $message_text, $secret_token)
 $telegram_id = $_POST['telegram_id'];
 $message_text = $_POST['message_text'];
 
-$secret_token = "1924018403:AAGozbPhM0kY2stYq5M2bcNw7RUUlloYmUs";
+$secret_token = "bot token";
 sendMessage($telegram_id, $message_text, $secret_token);
 ?>
 

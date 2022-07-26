@@ -12,9 +12,10 @@ I'll make all files contaminated in a folder.
 
 ### Folders
 
-* [Link text Here](https://link-url-here.org)
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
+* [Send Message by ID](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgByID)
+    - [x] Send text
+    - [x] Send image by url
+    - [ ] Send image & text/caption
+* [Send Message](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPHP)
     * Initial Release
 
