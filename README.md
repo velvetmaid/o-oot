@@ -18,4 +18,5 @@ I'll make all files contaminated in a folder.
     - [ ] Send image & text/caption
 * [Send Message](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPHP)
     * Initial Release
+* Soon
 
