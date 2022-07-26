@@ -15,15 +15,18 @@ I'll make all files contaminated in a folder.
 * [Send Message PHP by ID in form input](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgByID)
     - [x] Send text
     - [x] Send image by url
-    - [ ] Send image & text/caption
+    - [ ] Input by user
 * [Send Message PHP form input](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPHP)
     * Initial Release
 * [Send Message Pyhton](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPy)
-    * Initial Release
+    - [x] Send text
+    - [x] Send image by url
+    - [x] Inline url multiple button
+    - [ ] Input by user
 * Soon
 
-Send img by url or attach file
-Send text
-With button include text/url
-Note:
+- Send img by url or attach file
+- Send text
+- With button inline text/url
+- Note:
 Create in one chat column are not separated
