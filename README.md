@@ -21,12 +21,15 @@ I'll make all files contaminated in a folder.
 * [Send Message Pyhton](https://github.com/camieuxgoofy/tele_bot_post/tree/master/sendMsgPy)
     - [x] Send text
     - [x] Send image by url
-    - [x] Inline url multiple button
-    - [ ] Input by user
-* Soon
+       * Featured
+        - [x] Console input
+        - [ ] GUI input
+        - [ ] Inline url multiple button
+
+##### Clue
 
 - Send img by url or attach file
 - Send text
 - With button inline text/url
-- Note:
-Create in one chat column are not separated
+- Can add some buttons
+- Create in one chat column are not separated
