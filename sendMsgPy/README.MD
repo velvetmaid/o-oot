@@ -2,6 +2,8 @@
 
 * pip install telegram
 * pip install python-telegram-bot
+
+Then run :
 * python index.py
-  or
+or
 * python3 index.py
