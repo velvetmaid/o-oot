@@ -3,9 +3,12 @@ import telegram
 api_key = 'bot token'
 user_id = 'user ID'
 
+photo_url = input('Your Photo URL :')
+desc = input('Your Caption :')
+
 bot = telegram.Bot(token=api_key)
 
-bot.send_photo(chat_id=user_id, photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqtU1UzVIP7PA7FoiLTXXdosETBSLG_sxLdqWJqgeXkZ60kLE15ochjtOy&s=10", caption="#k-on \nK-ON Test.", reply_markup=telegram.InlineKeyboardMarkup ( [
-        [telegram.InlineKeyboardButton(text='on Facebook', url='https://facebook.com')],
-        [telegram.InlineKeyboardButton(text='on Telegram', url='https://t.me')],
+bot.send_photo(chat_id=user_id, photo=photo_url, caption=desc, reply_markup=telegram.InlineKeyboardMarkup ( [
+        [telegram.InlineKeyboardButton(text='Button Top', url='https://t.me
+        [telegram.InlineKeyboardButton(text='Button Bottom', url='https://t.me')],
     ] ))
