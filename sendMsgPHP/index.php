@@ -23,14 +23,14 @@
                         <input placeholder="Caption" type="text" name="caption" />
                     </div>
                 </div>
-                <!-- <div class="form-row">
+                <div class="form-row">
                     <div class="form-group col-6">
                         <input placeholder="Text Button" type="text" class="custom-input-field" name="text_btn" />
                     </div>
                     <div class="form-group col-6">
                         <input placeholder="Url Button" type="text" class="custom-input-field" name="url_btn" />
                     </div>
-                </div> -->
+                </div>
             </div>
             <input class="btn btn-info" type="submit" name="submit" />
             <a href="javascript:void(0);" class="add_input_button" title="Add field"><img src="add-icon.png" /></a>
@@ -41,13 +41,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+
 </body>
 
 </html>
 
 <?php
 if (isset($_POST['submit'])) {
-    $apiToken = "...";
+    $apiToken = '...';
     $data = http_build_query([
         'chat_id' => '...',
         'photo' => $_POST['photo'],
@@ -69,3 +70,4 @@ if (isset($_POST['submit'])) {
     $url = "https://api.telegram.org/bot$apiToken/sendPhoto?{$data}&reply_markup={$keyboard}";
     $res = @file_get_contents($url);
 }
+?>
