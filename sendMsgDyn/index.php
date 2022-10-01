@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="dyninput.js"></script>
+    <title>Dynamic Input</title>
 </head>
 
 <body>
@@ -17,23 +18,25 @@
             <div class="field_wrapper">
                 <div class="form-row">
                     <div class="form-group col-6">
-                        <input placeholder="Image URL" type="text" name="photo" />
+                        <input class="form-control" placeholder="Image URL" type="text" name="photo" />
                     </div>
                     <div class="form-group col-6">
-                        <input placeholder="Caption" type="text" name="caption" />
+                        <input class="form-control" placeholder="Caption" type="text" name="caption" />
                     </div>
+                </div>
+                <div class="container d-flex justify-content-end p-3">
+                    <a href="javascript:void(0);" class="add_input_button" title="Add field"><img src="add-icon.png" /></a>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-6">
-                        <input placeholder="Text Button" type="text" class="custom-input-field" name="text_btn" />
+                        <input placeholder="Text Button" type="text" class="form-control" name="text_btn" />
                     </div>
                     <div class="form-group col-6">
-                        <input placeholder="Url Button" type="text" class="custom-input-field" name="url_btn" />
+                        <input placeholder="Url Button" type="text" class="form-control" name="url_btn" />
                     </div>
                 </div>
             </div>
             <input class="btn btn-info" type="submit" name="submit" />
-            <a href="javascript:void(0);" class="add_input_button" title="Add field"><img src="add-icon.png" /></a>
         </form>
     </div>
 
